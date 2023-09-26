@@ -4,7 +4,7 @@ export default <Partial<Config>>{
   theme: {
     extend: {
       fontFamily: {
-        sans: ["Roboto", "'sans-serif'"],
+        sans: ["Roboto", "Roboto fallback", "'sans-serif'"],
       },
     },
   },
